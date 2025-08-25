@@ -1,4 +1,4 @@
-# AI Researcher & Data Scientist
+# Graduate Master's Student in Data Science  @ EPFL
 
 🎓 **Data Science Master's @ EPFL** | 🔬 **Research @ AXA & EPFL dlab** | 🚀 **Multimodal AI & LLM Specialist**
 
