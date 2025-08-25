@@ -1,6 +1,7 @@
-# Graduate Master's Student in Data Science  @ EPFL
+# Graduate Master's Student in Data Science @ EPFL
 
-🎓 **Data Science Master's @ EPFL** | 🔬 **Research @ AXA & EPFL dlab** | 🚀 **Multimodal AI & LLM Specialist**
+**Former AI Research Intern @ AXA**  | **Former Research Assistant @ EPFL DLab**
+
 
 Experienced with **PyTorch, HuggingFace, LangChain** with cutting-edge ML techniques: **RL (PPO, DPO, GRPO), transformers, fine-tuning, and agentic AI**
 
