@@ -14,7 +14,7 @@ I work on making language models behave under tight context budgets — the rese
 
 A proxy between your coding agent and its LLM that keeps the context window small. It summarises **in a background worker** and intercepts the agent's own compaction request — so compacting returns something that already exists instead of stalling your session. Compression is reversible: tool outputs become references, and a phantom `expand_context` tool lets the model pull the original back.
 
-*8 LLM backends · works with Claude Code, Codex, Cursor, OpenCode, OpenClaw · 40K+ lines of Go, 1K+ tests · single binary, 5 platforms.*
+*8 LLM backends · works with Claude Code, Codex, Cursor, OpenCode, OpenClaw · 47K lines of Go, 1K+ tests · single binary, 5 platforms.*
 
 **[Compresr SDKs](https://pypi.org/project/compresr/)** — ![PyPI](https://img.shields.io/pypi/v/compresr?style=flat-square) ![npm](https://img.shields.io/npm/v/compresr?style=flat-square)
 
@@ -57,7 +57,7 @@ Write-ups of bugs and measurement failures worth remembering — at [ousso11.git
 ### **AI/ML Frameworks & Libraries**
 **Core ML:** PyTorch • Scikit-learn  
 **LLM Ecosystem:** HuggingFace 🤗 • LangChain 🦜 • LangGraph • LlamaIndex 🦙 • LiteLLM • MCP  
-**Training & Fine-tuning:** TRL • PEFT • LoRA • RLHF • DPO • Quantization (FP8)  
+**Training & Fine-tuning:** TRL • PEFT • LoRA • GRPO • PPO • DPO • Quantization (FP8)  
 **Serving:** vLLM • SageMaker • GPU autoscaling  
 **Graph ML:** TorchGeometric • NetworkX  
 **Computer Vision:** OpenCV • TorchVision
@@ -79,7 +79,7 @@ Write-ups of bugs and measurement failures worth remembering — at [ousso11.git
 
 | | |
 |---|---|
-| Context Gateway | **637 ★**, 40K+ lines of Go, 1K+ tests, 12 releases |
+| Context Gateway | **637 ★**, 47K lines of Go, 1K+ tests, 12 releases |
 | Production impact | substantial cost and latency reductions, no quality regression |
 | Evaluation | **12 long-context suites** + a 200-task agent benchmark |
 | GPU autoscaling | custom CloudWatch metric, beats the AWS built-ins |
