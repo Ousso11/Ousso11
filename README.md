@@ -80,9 +80,9 @@ Write-ups of bugs and measurement failures worth remembering — at [ousso11.git
 | | |
 |---|---|
 | Context Gateway | **637 ★**, 40K+ lines of Go, 1K+ tests, 12 releases |
-| Production impact | one integration: **−55% cost ($33K/yr)**, **3× lower latency**, quality *up* |
+| Production impact | substantial cost and latency reductions, no quality regression |
 | Evaluation | **12 long-context suites** + a 200-task agent benchmark |
-| GPU autoscaling | custom CloudWatch metric, **−9 to −32%** instance-hours |
+| GPU autoscaling | custom CloudWatch metric, beats the AWS built-ins |
 
 ---
 
